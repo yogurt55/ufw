@@ -6,9 +6,6 @@ sudo apt update -y
 # 安装 UFW（如果尚未安装）
 sudo apt install ufw -y
 
-# 允许 SSH（防止锁死）
-sudo ufw allow OpenSSH
-
 # 允许 TCP 端口 2022 和 6000
 sudo ufw allow 2022/tcp
 sudo ufw allow 6000/tcp
