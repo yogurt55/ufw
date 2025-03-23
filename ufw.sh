@@ -14,7 +14,7 @@ sudo ufw allow 6000/tcp
 sudo ufw allow proto udp from any to any
 
 # 启用 UFW 并设置开机自启
-sudo ufw enable
+sudo ufw enable -y
 sudo systemctl enable ufw
 
 # 显示防火墙状态
